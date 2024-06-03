@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de equipo de fútbol</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Gestor de equipo de fútbol</h1>
+        <div id="buttons" class="container">
+            <button onclick="agregarJugador()" type="button" class="btn btn-primary" >Agregar jugador</button>
+            <button onclick="listarJugadores()" type="button" class="btn btn-primary">Listar jugadores</button>
+            <button onclick="asignarPosicion()" type="button" class="btn btn-primary">Asignar posición</button>
+            <button onclick="realizarCambio()" type="button" class="btn btn-primary"> Realizar cambio durante el partido</button>
+        </div>
+        <div class="container">
+            <p id="lista"></p> 
+            <script src="js/script.js"></script>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+
+</html>
